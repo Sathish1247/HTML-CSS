@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        
+        ul.product-list {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 0;
+        }
+        
+        ul.product-list li {
+            background: #fff;
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        ul.product-list li img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        
+        ul.product-list li h3 {
+            font-size: 18px;
+            color: #333;
+        }
+        
+        ul.product-list li p {
+            color: #777;
+            font-size: 14px;
+        }
+        
+        ul.product-list li .price {
+            font-weight: bold;
+            color: #e67e22;
+            margin: 10px 0;
+        }
+        
+        ul.product-list li button {
+            background: #e67e22;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        ul.product-list li button:hover {
+            background: #d35400;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Product Listing</h2>
+        <ul class="product-list">
+            <li>
+                <img src="C:\Users\USER\OneDrive - Brandgenz\Desktop\tshirt1.jpeg" alt="Product 1">
+                <h3>T-Shirt</h3>
+                <p>High-quality item for everyday use.</p>
+                <div class="price">$25.99</div>
+                <button>Add to Cart</button>
+            </li>
+            <li>
+                <img src="C:\Users\USER\OneDrive - Brandgenz\Desktop\shirt.jpeg" alt="Product 2">
+                <h3>Shirt</h3>
+                <p>Durable and stylish product for all.</p>
+                <div class="price">$30.99</div>
+                <button>Add to Cart</button>
+            </li>
+            <li>
+                <img src="C:\Users\USER\OneDrive - Brandgenz\Desktop\jeans.jpeg" alt="Product 3">
+                <h3>Jeans</h3>
+                <p>Essential and reliable for your needs.</p>
+                <div class="price">$19.99</div>
+                <button>Add to Cart</button>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
